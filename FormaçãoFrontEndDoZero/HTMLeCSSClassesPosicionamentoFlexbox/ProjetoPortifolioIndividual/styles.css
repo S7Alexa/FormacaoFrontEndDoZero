@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    display: block;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: lightcoral;
+    color: purple;
+}
+
+header {
+    display: block;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    display: main;
+    font-size: 2em;
+    padding: 5px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    padding: 5px;
+}
+
+.tituloDestaque {
+    color: purple;
+    border: 1px solid purple;
+    padding: 10px;
+}
+
+.nomeTituloDestaque {
+    color: darkolivegreen;
+    border: 1px solid darkolivegreen;
+    padding: 10px;
+}
+
+.textoEstilo {
+    color: purple;
+    font-weight: bold;
+}
+
+.textoDestaque {
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+img {
+    box-sizing: border-box;
+    width: 490px;
+    height: 550px;
+}
+
+footer {
+    display: block;
+}
+
+script {
+    display: none;
+}
